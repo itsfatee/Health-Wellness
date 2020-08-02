@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/size_padding"
+    tools:context="com.esmt.controller.healthwellness.AddAppointActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Appointment"
+        android:textColor="@color/colorDark"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="@dimen/size_title"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_top"
+        android:hint="@string/last_name"
+        android:id="@+id/txtlName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_top"
+        android:hint="@string/first_name"
+        android:id="@+id/txtfName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_top"
+        android:hint="@string/email"
+        android:id="@+id/txtmail"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_top"
+        android:hint="@string/appoint_date"
+        android:id="@+id/txtDate"/>
+
+    <EditText
+        android:id="@+id/txtTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_top"
+        android:ems="10"
+        android:hint="Select Time" />
+
+    <EditText
+        android:id="@+id/txtDocName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_top"
+        android:ems="10"
+        android:hint="Doctor Name" />
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_top"
+        android:background="@color/colorPrimaryDark"
+        android:text="BOOK"
+        android:id="@+id/btnBook"/>
+
+</LinearLayout>

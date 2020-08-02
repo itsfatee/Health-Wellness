@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/size_padding"
+    tools:context="com.esmt.controller.healthwellness.AddDoctorActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Doctor"
+        android:textColor="@color/colorDark"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="@dimen/size_title"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/size_top"
+        android:src="@drawable/doctor"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_top"
+        android:hint="@string/name"
+        android:id="@+id/txtName"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_top"
+        android:hint="@string/email"
+        android:id="@+id/txtEMail"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_top"
+        android:hint="@string/phone_number"
+        android:id="@+id/txtNumber"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_top"
+        android:hint="@string/specialty"
+        android:id="@+id/txtSpe"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_top"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/register"
+        android:id="@+id/btnRegDoc"/>
+
+
+</LinearLayout>

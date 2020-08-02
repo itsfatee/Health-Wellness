@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/userAbout"
+            android:icon="@drawable/ic_about"
+            android:title="About" />
+
+        <item
+            android:id="@+id/bookAppoint"
+            android:icon="@drawable/ic_appoint_list"
+            android:title="Book Appointments" />
+        <item
+            android:id="@+id/userAppoint"
+            android:icon="@drawable/ic_calendar"
+            android:title="My Appointments" />
+        <item
+            android:id="@+id/userFile"
+            android:icon="@drawable/ic_medical_file"
+            android:title="Medical File" />
+        <item
+            android:id="@+id/userDoc"
+            android:icon="@drawable/ic_doctor"
+            android:title="Doctors" />
+        <item
+            android:id="@+id/locate"
+            android:icon="@drawable/ic_location"
+            android:title="Location" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/userHelp"
+                android:icon="@drawable/ic_help"
+                android:title="Help" />
+
+            <item
+                android:id="@+id/userLogout"
+                android:icon="@drawable/ic_logout"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>
